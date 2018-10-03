@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest
+FROM mhart/alpine-node:10
 LABEL maintainer="Rodrigo de Avila <rodrigo.avila@mailtop.com.br>"
 
 RUN apk --no-cache add \ 
